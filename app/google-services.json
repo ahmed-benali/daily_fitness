@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020243721484",
+    "firebase_url": "https://vocal-invention-279211.firebaseio.com",
+    "project_id": "vocal-invention-279211",
+    "storage_bucket": "vocal-invention-279211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020243721484:android:99cbc76cf394e02e6b1d29",
+        "android_client_info": {
+          "package_name": "com.benaliahmed.dailyfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020243721484-0u8uog4f5jf43p3jptfn8iem0snujnkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.benaliahmed.dailyfitness",
+            "certificate_hash": "b670f5bf91733d51c445fa4194261a77a89e1738"
+          }
+        },
+        {
+          "client_id": "1020243721484-p9me6la3c5s5otil1qc20sr319sv55ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa8W6Z_qB93RdGqAQaQsm5fb5J0T8thDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020243721484-p9me6la3c5s5otil1qc20sr319sv55ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

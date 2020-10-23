@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="login.Signup3"
+    android:background="@color/colorPrimary"
+    android:padding="30dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="frame"
+        android:transitionName="transition_signup_btn">
+
+        <ImageView
+            android:id="@+id/signup_back_btn"
+            android:layout_width="42dp"
+            android:layout_height="45dp"
+            android:onClick="Signup3Back"
+            android:padding="5dp"
+            android:src="@drawable/back_arrow"
+            android:transitionName="transition_signup_backbtn"/>
+        <TextView
+            android:id="@+id/signup_titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:textSize="40dp"
+            android:fontFamily="@font/muli_black"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:transitionName="transition_signup_titletext"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/country_code_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_showFlag="true"
+                app:ccp_showNameCode="true"
+                app:ccp_showFullName="true"
+                android:background="@drawable/black_boader"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Signup_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/enter_phone"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:startIconDrawable="@drawable/phone"
+                app:startIconTint="@color/black"
+                app:endIconTint="@color/black"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli"
+                    android:textColor="@color/black"
+                    android:inputType="phone"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:background="#000000"
+            android:onClick="Signup3Next"
+            android:id="@+id/signup_next_btn"
+            android:transitionName="transition_signup_nextbtn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:onClick="Signup3Log"
+            android:id="@+id/signup_log_btn"
+            android:transitionName="transition_signup_logbtn"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

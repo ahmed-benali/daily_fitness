@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">dailyfitness</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="mainactivity_heading">one mile a day keeps the doctor away</string>
+    <string name="mainactivity_text">check how much calories you burned and make sure you stick to your running plan as we help you obtain your goal physique</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="help">HELP</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_fullname">Enter Full Name</string>
+    <string name="enter_phone">Phone Number</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="choose_age">Select Your Age</string>
+    <string name="code_text">CO\nDE</string>
+    <string name="verification_text">verification</string>
+    <string name="verification_description_text">Enter one time password sent on</string>
+    <string name="forgot_password_detail">Provide your account\'s email for which you want to rest your password!</string>
+    <string name="select_method">Make\nSelection</string>
+    <string name="make_selection_detail">Select which method you want to use to reset your password?</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="new_credentials">New\nCredentials</string>
+    <string name="new_credentials_detail">Your identity has been verified!\nSet your new password</string>
+    <string name="password_updated">password updated</string>
+    <string name="password_updated_details">Your password has been successfully updated!</string>
+    <string name="facebook">log in with facebook</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_run">Run</string>
+    <string name="title_progress">progress</string>
+    <string name="title_profile">profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start">START</string>
+    <string name="title_stats">Stats</string>
+    <string name="title_information">Information</string>
+</resources>

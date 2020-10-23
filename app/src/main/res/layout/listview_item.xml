@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="date: 00"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/distance_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="distance: 00"
+            android:paddingLeft="11dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/duration_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="duration :00"
+            android:paddingLeft="11dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/speed_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="avarage speed: 00"
+            android:paddingLeft="11dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/calories_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="calories: 00"
+            android:paddingLeft="11dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
