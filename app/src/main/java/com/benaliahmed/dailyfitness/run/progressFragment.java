@@ -52,7 +52,7 @@ public class progressFragment extends Fragment {
                 calories = cursor.getString(5);
                 str_distance="distance= "+distance+" Km";
                 str_duration="duration= "+duration+" Min";
-                str_speed="average speed= "+speed+" M/Min";
+                str_speed="average speed= "+speed+" Km/Min";
                 str_calories="calories= "+calories;
                 adapter.addItem(Integer.parseInt(id), date, str_duration, str_distance, str_speed, str_calories);
             }
